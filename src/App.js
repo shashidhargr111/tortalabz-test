@@ -220,7 +220,7 @@ export default function BackToTop(props) {
                   <TextField
                     id="outlined-password-input"
                     label="Email Id"
-                    type="text"
+                    type="email"
                     name="email"
                     onChange={onChange}
                     variant="outlined"
