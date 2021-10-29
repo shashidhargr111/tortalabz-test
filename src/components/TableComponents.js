@@ -67,7 +67,7 @@ const TableList = ({ data }) => {
                             <TableCell align="center">SL no</TableCell>
                             <TableCell align="center" onClick={() => sorting("fName")}>First Name</TableCell>
                             <TableCell align="center" onClick={() => sorting("lName")}>Last Name</TableCell>
-                            <TableCell align="center" onClick={() => sorting("email")}>Email</TableCell>
+                            <TableCell align="center" onClick={() => sorting("eMail")}>Email</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
